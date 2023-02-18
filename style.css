@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.img-1-tablet {
+  display: none;
+}
+.img-2-tablet {
+  display: none;
+}
+.img-3-tablet {
+  display: none;
+}
+
+/* header section */
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 55px;
+  margin: 32px 16px;
+  color: #151515;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #444444;
+}
+header p {
+  margin: 0 16px 32px 16px;
+}
+a {
+  font-family: "Big Shoulders Display", cursive;
+  background-color: #151515;
+  color: #ffffff;
+  padding: 24px 35px 24px 32px;
+  margin: 32px 0px 120px 16px;
+  text-decoration: none;
+}
+.arrow-right {
+  background-color: #d5966c;
+  padding: 24px 24px;
+  margin: 32px 99px 120px 0;
+}
+.location-with-arrow {
+  display: flex;
+}
+
+/* main section */
+
+main {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+}
+.main-heading {
+  margin-top: 25px;
+  margin-bottom: 21px;
+  color: #151515;
+}
+main p {
+  margin-bottom: 32px;
+}
+.gallery {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* main summery section */
+.summery h2 {
+  color: #ffffff;
+  margin: 48px 24px 24px 24px;
+}
+.summery p {
+  color: #ffffff;
+  margin: 0 24px 47px 24px;
+}
+.summery {
+  background-color: #151515;
+  margin-bottom: 120px;
+}
+
+/* footer section */
+footer {
+  background-color: #151515;
+  padding: 48px 32px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
+.instagram-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* tablet section */
+@media (min-width: 768px) {
+  body {
+    background-image: url(/assets/tablet/image-hero.jpg);
+    background-repeat: no-repeat;
+  }
+  .hero-img {
+    display: none;
+  }
+  header {
+    margin: 145px 40px 265px 389px;
+  }
+  main {
+    margin: 0 40px 120px 39px;
+  }
+
+  /* swap images */
+  .img-1-tablet {
+    display: block;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2-tablet {
+    display: block;
+  }
+  .img-2{
+    display: none;
+  }
+  .img-3-tablet{
+display: block;
+margin: 11px 11px;
+  }
+  .img-3{
+    display: none;
+  }
+/* make tablet divs in right order */
+
+  .tablet-div1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .main-heading,
+  p {
+    margin-right: 68px;
+  }
+  .tablet-div2 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 120px;
+  }
+  .summery {
+    padding: 85px 28px;
+  }
+}

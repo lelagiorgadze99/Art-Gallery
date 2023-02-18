@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/mobile/image-map.png);
+    background-repeat: no-repeat;
+}
+/* header section */
+header img{
+    background-color: #D5966C;
+    padding: 24px 24px;
+}
+a{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #151515;
+    padding: 24px 35px 24px 32px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    margin-bottom: 478px;
+}
+
+/* main section */
+main{
+    background-color: #151515;
+    padding: 48px 16px 56px 16px;
+}
+
+main h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900;
+    color:#FFFFFF;
+    margin-bottom: 48px;
+}
+main h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color:#D5966C;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* footer section */
+footer{
+    background-color: #D5966C;
+    padding: 48px 32px;
+}
+footer p{
+    color:#151515;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+
