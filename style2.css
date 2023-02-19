@@ -1,72 +1,163 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(/assets/mobile/image-map.png);
-    background-repeat: no-repeat;
+body {
+  background-image: url(/assets/mobile/image-map.png);
+  background-repeat: no-repeat;
 }
 /* header section */
-header img{
-    background-color: #D5966C;
-    padding: 24px 24px;
+header img {
+  background-color: #d5966c;
+  padding: 24px 24px;
 }
-a{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 3.6px;
-    font-weight: 800;
-    color: #FFFFFF;
-    background-color: #151515;
-    padding: 24px 35px 24px 32px;
-    text-decoration: none;
+a {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #151515;
+  padding: 24px 35px 24px 32px;
+  text-decoration: none;
 }
-header{
-    display: flex;
-    margin-bottom: 478px;
+header {
+  display: flex;
+  margin-bottom: 478px;
 }
 
 /* main section */
-main{
-    background-color: #151515;
-    padding: 48px 16px 56px 16px;
+main {
+  background-color: #151515;
+  padding: 48px 16px 56px 16px;
 }
 
-main h1{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 50px;
-    line-height: 45px;
-    font-weight: 900;
-    color:#FFFFFF;
-    margin-bottom: 48px;
+main h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 48px;
 }
-main h2{
-    font-family: 'Big Shoulders Display', cursive;
-    color:#D5966C;
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 32px;
+main h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #d5966c;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
 }
-p{
-    font-family: 'Outfit', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28px;
-    color: #FFFFFF;
-    margin-top: 20px;
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 20px;
 }
 
 /* footer section */
-footer{
-    background-color: #D5966C;
-    padding: 48px 32px;
+footer {
+  background-color: #d5966c;
+  padding: 48px 32px;
 }
-footer p{
-    color:#151515;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 38px;
-    margin-bottom: 40px;
+footer p {
+  color: #151515;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
+.instagram-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* tablet location section */
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(/assets/tablet/image-map.png);
+    background-repeat: no-repeat;
+  }
+  header {
+    margin-left: 39px;
+  }
+  main {
+    display: flex;
+  }
+  main h1 {
+    margin-right: 68px;
+    margin-left: 39px;
+  }
+  .adress {
+    margin-right: 40px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    padding: 56px 40px;
+  }
+  footer p {
+    margin-left: 64px;
+    margin-right: 133px;
+  }
+  footer img {
+    margin-bottom: 64px;
+  }
 }
 
+/* dektop section */
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(/assets/desktop/image-map.png);
+    background-repeat: no-repeat;
+  }
+  header {
+    margin-left: 156px;
+  }
+  h1 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+  main p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+  }
+  main {
+    padding: 104px 165px 128px 165px;
+  }
+  .adress {
+    margin-left: 220px;
+  }
+
+  /* footer desktop */
+  footer p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 140px;
+    margin-right: 280px;
+  }
+  footer {
+    padding: 80px 165px;
+  }
+
+  /* hover section */
+  a:hover {
+    background-color: #d5966c;
+  }
+  header img {
+    cursor: pointer;
+  }
+  header img:hover {
+    background-color: #151515;
+  }
+  a:hover {
+    background-color: #d5966c;
+  }
+  .icon {
+    cursor: pointer;
+  }
+}
