@@ -219,7 +219,7 @@ footer p {
     top: 0;
     position: relative;
   }
-  
+
   header h1 {
     position: absolute;
     left: 9.8%;
@@ -228,11 +228,16 @@ footer p {
     font-size: 96px;
     line-height: 88px;
   }
-  .desktop-header p{
+  h1 {
+    background: linear-gradient(to right, white 62%, #151515 38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .desktop-header p {
     font-size: 22px;
     line-height: 32px;
   }
-  .desktop-header{
+  .desktop-header {
     position: absolute;
     top: 200px;
     left: 900px;
@@ -240,49 +245,45 @@ footer p {
     margin-right: 0px;
   }
   /* main desktop section */
-  main{
+  main {
     margin: 180px 164px;
   }
-main h2{
-  font-size: 60px;
-  line-height: 60px;
- 
-}
-.summary {
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-right: 0;
+  main h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .summary {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  .img-2-desktop {
+    margin-top: 30px;
+    width: auto;
+  }
+  .img-3-desktop {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 
-}
-.img-2-desktop{
-  margin-top: 30px;
-}
-.img-3-desktop{
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-/* footer desktop section */
-footer p{
-  font-size: 18px;
-  line-height: 28px;
-  margin-left: 140px;
-  margin-right: 280px;
-}
-footer{
-  padding: 80px 165px;
-}
-/* hover section */
-a:hover{
-  background: #D5966C;
-}
-.arrow-right{
-  cursor: pointer;
-}
-.arrow-right:hover{
-background-color: #151515;
-}
-
-
-
+  /* footer desktop section */
+  footer p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 140px;
+    margin-right: 280px;
+  }
+  footer {
+    padding: 80px 165px;
+  }
+  /* hover section */
+  a:hover {
+    background: #d5966c;
+  }
+  .arrow-right {
+    cursor: pointer;
+  }
+  .arrow-right:hover {
+    background-color: #151515;
+  }
 }
